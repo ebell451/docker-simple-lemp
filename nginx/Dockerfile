@@ -2,6 +2,7 @@ FROM nginx:1.17.1-alpine
 
 COPY ./config/nginx.conf /etc/nginx/
 COPY ./sites /etc/nginx/sites-available
+COPY ./sites/default.conf /etc/nginx/sites-available/${APP_NAME}.conf
 RUN apk update \
     && apk upgrade \
     && apk add --no-cache bash \
