@@ -4,9 +4,9 @@ A simple docker stack for rapid prototyping.
 
 ## What's inside
 
-- nginx:1.17.1-alpine
-- mariadb:10.3
-- php:8.1-fpm
+- nginx:1.29.3-alpine
+- mariadb:10.6
+- php:8.4-fpm
 
 ## usage
 Clone the repo
